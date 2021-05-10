@@ -1,3 +1,3 @@
 <?php
-include_once('covid_test.html')
+include_once("covid_test.html")
 ?>
