@@ -10,6 +10,11 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 </head>
 <style>
+    .count{
+
+        font-size:18px;
+        font-weight: bold;
+    }
     #myInput{
         border: 2px solid black;
         padding:0 10px;
@@ -52,7 +57,7 @@
     <div class="container-fluid text-center bg-light my-3 p-5 ">
         <h1>Covid-19 India Tracker</h1>
         <h5 class="text-muted">
-            Vrushabh Opensource project for tracking Covid-19 Cases in India.
+             Opensource project for tracking Covid-19 Cases in India.
         </h5>
     </div>
 
@@ -60,19 +65,19 @@
         <div class="row text-center">
             <div class="col-3 text-warning">
                 <h5>Confirmed</h5>
-                <p id="confirmed"></p>
+                <p id="confirmed" class="count"></p>
             </div>
             <div class="col-3 text-info">
                 <h5>Active</h5>
-                <p id="active"></p>
+                <p id="active" class="count"></p>
             </div>
             <div class="col-3 text-success">
                 <h5>Recoverd</h5>
-                <p id="recovered"></p>
+                <p id="recovered" class="count"></p>
             </div>
             <div class="col-3 text-danger">
                 <h5>Deceased</h5>
-                <p id="deaths"></p>
+                <p id="deaths" class="count"></p>
             </div>
             <canvas id="myGraph" height="60%" width="100%"></canvas>
         </div>
